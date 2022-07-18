@@ -13,6 +13,8 @@ class Account :
         self.type = input("Ente the type of account [C/S] : ")
         self.deposit = int(input("Enter The Initial amount(>=500 for Saving and >=1000 for current"))
         print("\n\n\nAccount Created")
+        
+        # please corrent this 
     
     def showAccount(self):
         print("Account Number : ",self.accNo)
